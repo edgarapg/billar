@@ -81,6 +81,48 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GastoAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GastoAdminForm.Designer.cs">
+      <DependentUpon>GastoAdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GastoBancoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GastoBancoForm.Designer.cs">
+      <DependentUpon>GastoBancoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GastoBrianForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GastoBrianForm.Designer.cs">
+      <DependentUpon>GastoBrianForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GastoCasaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GastoCasaForm.Designer.cs">
+      <DependentUpon>GastoCasaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GastoLocalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GastoLocalForm.Designer.cs">
+      <DependentUpon>GastoLocalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GastoPersonalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GastoPersonalForm.Designer.cs">
+      <DependentUpon>GastoPersonalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GastosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GastosForm.Designer.cs">
+      <DependentUpon>GastosForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="master.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +177,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="acuerdo-de-contribuyente.png" />
+    <Content Include="contabilidad.png" />
+    <Content Include="cuenta-bancaria.png" />
+    <Content Include="hombre.png" />
+    <Content Include="image.png" />
     <Content Include="imagenes\536b177c-3017-42f2-96f3-650a57c48f3a.jpeg" />
     <Content Include="imagenes\candado.png" />
     <Content Include="imagenes\imagen12.jpg" />
@@ -149,6 +196,9 @@
     <Content Include="imagenes\pitchthree.jpg" />
     <Content Include="imagenes\pitchtwelve.jpg" />
     <Content Include="imagenes\usuario.png" />
+    <Content Include="nina.png" />
+    <Content Include="perfil-del-cliente.png" />
+    <Content Include="perfil.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

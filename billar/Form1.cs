@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,8 +21,9 @@ namespace billar
             this.Text = "Inicio de sesión";
             this.Size = new Size(800, 500); // Tamaño del formulario
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.BackgroundImage = Image.FromFile("C:\\Users\\edgar\\Pictures\\billar\\billar\\imagenes\\536b177c-3017-42f2-96f3-650a57c48f3a.jpeg"); // Coloca la ruta de tu imagen aquí
+            this.BackgroundImage = Image.FromFile("C:\\Users\\edgar\\Pictures\\billar\\billar\\imagenes\\pitchfive.jpg");
             this.BackgroundImageLayout = ImageLayout.Stretch;
+
             Panel panel = new Panel();
             panel.BackColor = Color.FromArgb(120, 0, 0, 0); // Transparencia (A=120)
             panel.Size = new Size(300, 400);

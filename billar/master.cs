@@ -182,13 +182,11 @@ namespace billar
 
         private void ShowInventarios()
         {
-            Label lbl = new Label();
-            lbl.Text = "Inventarios";
-            lbl.Font = new Font("Arial", 24, FontStyle.Bold);
-            lbl.ForeColor = Color.White;
-            lbl.AutoSize = true;
-            lbl.Location = new Point((panelContent.Width - lbl.Width) / 2, 150);
-            panelContent.Controls.Add(lbl);
+            // Crear una instancia del formulario de reportes
+            GastosForm gastosForm = new GastosForm();
+
+            // Mostrar el formulario de reportes dentro del panelContent
+            LoadFormInPanel(gastosForm);
         }
 
         private void LoadFormInPanel(Form form)
