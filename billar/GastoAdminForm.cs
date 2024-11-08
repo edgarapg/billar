@@ -88,7 +88,7 @@ namespace billar
             lblTotalGasto = new Label();
             lblTotalGasto.Text = "Valor total del gasto: $0";
             lblTotalGasto.Font = new Font("Arial", 14, FontStyle.Bold);
-            lblTotalGasto.ForeColor = Color.White;
+            lblTotalGasto.ForeColor = Color.Black;
             lblTotalGasto.AutoSize = true;
             lblTotalGasto.Location = new Point(50, 520);
             this.Controls.Add(lblTotalGasto);
